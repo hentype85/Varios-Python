@@ -17,9 +17,9 @@ def pascal_triangle(n):
 
 
 def main():
-    n = int(input("Ingrese el numero de filas para el triangulo de Pascal: "))
+    n = int(input("ingrese el numero de filas para el triangulo de Pascal: "))
     triangle = pascal_triangle(n)
-    print("Triángulo de Pascal:")
+    print("triangulo de Pascal:")
     for row in triangle:
         print(row)
 
