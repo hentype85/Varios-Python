@@ -1,14 +1,21 @@
 #!/usr/bin/python3
 
 def fib(num):
+    """ calcula el numero fibonacci que
+        corresponde al indice dado y
+        lo retorna
+    """
     if num == 0 or num == 1:
         return 1
-    list_num = [fib(num - 1), fib(num - 2)]
-    return sum(list_num)
+    return fib(num - 1) + fib(num - 2)
 
 
-res = []
-for i in range(10):
-    res.append(fib(i))
+""" cargar indices en lista
+    para imprimir
+"""
+n = 25
+new_list = []
+for i in range(0, 25):
+    new_list.append(fib(i))
 
-print(res)
+print(new_list)
