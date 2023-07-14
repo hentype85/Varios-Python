@@ -23,5 +23,6 @@ def main():
     for row in triangle:
         print(row)
 
+
 if __name__ == "__main__":
     main()
