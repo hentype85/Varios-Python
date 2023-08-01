@@ -2,6 +2,7 @@
 
 def roman_to_int(roman):
     """convertir números romanos a enteros"""
+
     if type(roman) != str:
         return 0
 
